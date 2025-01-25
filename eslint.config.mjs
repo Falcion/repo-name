@@ -18,7 +18,14 @@ const compat = new FlatCompat({
 export default [
   {
     // Global ignore patterns
-    ignores: ['**/node_modules/', '**/dist/', '**/out/', '**/prepare_template.js', '*.d.ts', '**/venv/']
+    ignores: [
+      '**/node_modules/',
+      '**/dist/',
+      '**/out/',
+      '**/prepare_template.js',
+      '*.d.ts',
+      '**/venv/'
+    ]
   },
   {
     // JavaScript-specific configuration

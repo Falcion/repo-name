@@ -1,3 +1,21 @@
 # Add 'code-scanning' label to any changes within 'code-scanning' folder or any subfolders
-code-scanning:
-  - code-scanning/**/*
+# code-scanning:
+#   - code-scanning/**/*
+documentation:
+  - 'docs/**/*'
+automation/ci-cd:
+  - '.github/workflows/**/*'
+  - '.github/*.yml'
+automation/tooling:
+  - 'kubernetes/**/*'
+dependencies:
+  - '**/package*'
+  - '**/composer*'
+  - '**/yarn*'
+  - '**/requirements'
+main:
+  - 'source/**/*'
+python:
+  - '**/*.py'
+release:
+  - 'release/**/*'

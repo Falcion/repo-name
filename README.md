@@ -9,6 +9,10 @@
     <a href="https://github.com/Falcion/Patternugit/issues"><img src="https://img.shields.io/github/issues/Falcion/Patternugit" alt="issues"/></a>
     <a href="https://github.com/Falcion/Patternugit/actions/workflows/analytics.yml"><img src="https://img.shields.io/github/actions/workflow/status/Falcion/Patternugit/.github%2Fworkflows%2Fanalytics.yml" alt="build"></a>
     <a href="https://github.com/Falcion/Patternugit/commits"><img src="https://img.shields.io/github/last-commit/Falcion/Patternugit" alt="commit-activity"/></a>
+    <!-- SET UP STATUS FOR PROJECT AFTER RELEASE, FROM PRESETS AT:
+         ~/.github/badges-status-presets.json
+    -->
+    <a href="https://github.com/Falcion/Patternugit/releases/latest"><img src="https://img.shields.io/badge/status-development-dodgerblue" alt="commit-activity"/></a>
 </div>
 <!-- -->
 <br/>
